@@ -1,12 +1,8 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
-
-
-
-
-
+```
+Name : ROSHINI S
+Roll no : 212223240142
+```
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
 ## Theory 
@@ -78,24 +74,104 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
+```
 
+org 100h
+mov ax,1234h;
+mov bx,0112h;
+add ax,bx;
+mov [1234h],ax;
+ret
+```
+## Output:
 
+![1](https://github.com/user-attachments/assets/e6425dfe-500f-4c17-a53e-03126ec9dd61)
 
-## Output  
  
-## Subtraction   of 8 bit numbers  ALP 
- 
-## Output  
-## Multiplication alp 
- ## Output  
+## Subtraction   of 8 bit numbers  ALP :
+```
+org 100h
+mov ax,1101h;
+mov bx,4789h;
+sub ax,bx;
+mov [4678h],ax;
+ret
+``` 
+## Output :
+
+![Screenshot 2024-08-21 100857](https://github.com/user-attachments/assets/ea5be6b1-16b8-4ec8-ac30-253f13f8273b)
 
 
-## Division alp 
+## Multiplication alp:
+```
 
-## Output  
+org 100h
+mov ax,3102h;
+mov bx,2318h;
+mul ax;
+mov [4004h],ax;
+ret
+```
+ ## Output :
 
+ ![Screenshot 2024-08-21 101327](https://github.com/user-attachments/assets/a657c03f-0982-4f2c-8d8b-6f13f31095b8)
+
+## Division alp :
+```
+org 100h
+MOV al,26h;
+MOV bl,[2369h];
+DIV bl;
+MOV [2399h],al;
+ret
+```
+## Output :
+
+![image](https://github.com/user-attachments/assets/ce386bb4-179a-498d-9754-d0fd78187284)
+
+## AND operation:
+```
+org 100h
+
+mov SI,0532h;
+mov ax,0A23h;
+mov bx,0b13h;
+and ax,bx; 
+mov [0007h],ax;
+ret
+```
+## output:
+
+![image](https://github.com/user-attachments/assets/d4fc5686-2a30-4236-8f21-0fb9a9c4d3ed)
+## OR operation:
+```
+org 100h
+mov [SI+2],ax;
+mov ax,0A32h;
+not ax
+xor ax,bx; 
+mov [0008h],ax;
+ret
+```
+## output:
+![image](https://github.com/user-attachments/assets/5d1bbc82-4451-4551-b8f3-8067088c92ae)
+
+## XOR operation:
+```
+org 100h
+mov [SI+2],ax;
+mov ax,0A32h;
+not ax
+xor ax,bx; 
+mov [0008h],ax;
+ret
+```
+## output:
+
+![image](https://github.com/user-attachments/assets/0efcc27f-c0d7-42d9-9c50-d64ba3ff6576)
 
 ## Result :
+Thus, Alp for fundamental arithmetic and logical operations are exected succesfully.
  
 
 
