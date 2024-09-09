@@ -2,6 +2,8 @@
 ```
 Name : ROSHINI S
 Roll no : 212223240142
+date : 19.07.2024
+ex no : 1
 ```
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
