@@ -1,5 +1,5 @@
-##DATE:
-EX NO:
+## DATE: 19/8/24
+## EX NO: 1
 # EXPERIMENT--01-ALP-FOR-8086
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
