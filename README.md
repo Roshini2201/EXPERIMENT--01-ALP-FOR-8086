@@ -1,10 +1,6 @@
+##DATE:
+EX NO:
 # EXPERIMENT--01-ALP-FOR-8086
-```
-Name : ROSHINI S
-Roll no : 212223240142
-date : 19.07.2024
-ex no : 1
-```
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
 ## Theory 
@@ -71,7 +67,8 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
-
+##DEVELOPED BY:ROSHINI S
+REG NO:212223240142
 
 ## Programs for arithmetic  operations
 
